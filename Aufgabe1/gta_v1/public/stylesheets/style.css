@@ -260,3 +260,16 @@ footer span{
 /* ### TODO ### Media Queries */
 
 /* ... your code here ... */
+
+@media (max-width: 900px) {
+  div.discovery__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 750px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
