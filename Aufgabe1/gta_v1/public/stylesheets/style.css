@@ -190,6 +190,54 @@ form legend{
 
 /* ... your code here ... */
 
+#discoveryFilterForm{
+  display: flex;
+  flex-direction:column;
+}
+
+.search{
+  width: 12.5em;
+  color: var(--gray-color);
+  padding: 5px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 2.5px;
+}
+
+.discovery__map{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  position: relative;
+}
+
+.discovery__map span{
+  position: absolute;
+  bottom: 0;
+  justify-content: left;
+  color: #666;
+}
+
+.discovery__wrapper{
+  display: flex;
+  flex-direction: inherit;
+  padding: 1em;
+  justify-content: left;
+}
+
+li{
+  display: flex;
+  background-color: lightgray;
+  color: #00B7FF;
+  height:45px;
+  margin: 0.9em;
+  padding: 0.9em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  align-items:inherit;
+  text-size-adjust: auto;
+  text-align-last: left;
+}
 
 /* ### TODO ### Styles for Footer Component */
 
