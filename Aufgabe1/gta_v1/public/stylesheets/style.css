@@ -143,6 +143,19 @@ header {
 
 /* ... your code here ... */
 
+main {
+  display: flex;
+  justify-content:space-evenly;
+  vertical-align: auto;
+}
+section{
+  padding: 1em;
+}
+
+.main__tagging{
+  width: auto;
+  height: auto;
+}
 
 /* ### TODO ### Styles for Tagging component */
 

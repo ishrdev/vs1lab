@@ -29,20 +29,7 @@
             <form id="tag-form" action="/tagging" method="post">
 
                 <!-- ... your code here ... -->
-
-            </form>
-            <!-- ############### VS1Lab 1a Form 1 End -->
-
-        </section>
-
-        <section class="main__discovery discovery">
-            <h2 class="discovery__title">Discovery</h2>
-
-            <!-- ############### VS1Lab 1a Form 2 Start -->
-            <form class="discovery__search" id="discoveryFilterForm" action="/discovery" method="post">
-
-                <!-- ... your code here ... -->
-                 <fieldset>
+                <fieldset>
                     <legend>Add a location</legend>
                     <label for="latitude">Latitude</label>
                     <input type="text" name="Latitude" placeholder="e.g -56.5954" size="20" id="latitude" readonly required/> 
@@ -56,6 +43,28 @@
                     <input type="submit" id="addtag" value="Add Tag" class="addTag"/>
                 </fieldset>
                 
+            </form>
+            <!-- ############### VS1Lab 1a Form 1 End -->
+
+        </section>
+
+        <section class="main__discovery discovery">
+            <h2 class="discovery__title">Discovery</h2>
+
+            <!-- ############### VS1Lab 1a Form 2 Start -->
+            <form class="discovery__search" id="discoveryFilterForm" action="/discovery" method="post">
+
+                <!-- ... your code here ... -->
+                <fieldset>
+                    <legend>Discover new locations</legend>
+                    <label for="searchterm">Search term or keyword:</label>
+                    <input type="text" name="Searchterm" size="20" placeholder="e.g Karlsruhe" id="searchterm" pattern="[A-Za-z]" required/>
+                    <input type="hidden" name="Latitude" id="latitude" value=""/> 
+                    <input type="hidden" name="Longitude" id="longitude" value=""/>
+                    <label for="search"></label><br>
+                    <input type="submit" id="search" value="Search" class="search"/>
+                </fieldset>
+
             </form>
             <!-- ############### VS1Lab 1a Form 2 End -->
 
