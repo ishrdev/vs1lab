@@ -48,6 +48,10 @@ a {
 
 /* ... your code here ... */
 
+input[type="text"] {
+  height: 30px;
+  width: 160px;
+  }
 
 /* Grid styles (no changes required) */
 
@@ -111,6 +115,29 @@ a {
 
 /* ... your code here ... */
 
+header {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header__navigation{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 1em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__image {
+  display: flex;
+  padding: 1em;
+  max-width: 40px !important;
+  min-width: 8.33% !important;
+}
 
 /* ### TODO ### Styles for Main Component */
 
