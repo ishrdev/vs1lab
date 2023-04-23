@@ -243,6 +243,19 @@ li{
 
 /* ... your code here ... */
 
+footer{
+  display: flex;
+  background-color: lightgray;
+  text-align: center;
+  height: 50px;
+}
+
+footer span{
+  padding: 1em;
+  width: 240px;
+  height: 30px;
+  display: inherit;
+}
 
 /* ### TODO ### Media Queries */
 
