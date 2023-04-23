@@ -161,6 +161,30 @@ section{
 
 /* ... your code here ... */
 
+form input {
+  margin: 0.7em;
+  display: flex;
+  font-size: 0.9em;
+}
+form label{
+  color: #666;
+  font-size: 1em;
+  margin: 0.7em;
+  border-bottom: 15px;
+}
+
+form legend{
+  margin: 10px;
+}
+
+.addTag {
+  width: 12.5em;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 2.5px;
+}
 
 /* ### TODO ### Styles for Discovery component */
 
